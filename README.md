@@ -2,7 +2,7 @@
 This plugin attempts to recreate the Android ClingView in jQuery and JQM.
 
 ### What's the "ClingView"
-The ClingView is this overlay you get when you first start your device or a new app which act as an in context help to guide the user.
+The ClingView is this overlay you get when you first start your device or a new app which acts as an in context help to guide the user.
 
 It looks like this in its native state:
 
