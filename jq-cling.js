@@ -66,7 +66,7 @@
                         c = {};
                         console.warn("JQ-CLING WARNING: You passed an empty color object for one of the properties. One will be created for you!");
                     }
-                    else if (!c.r || !c.g || !c.b || !c.a) {
+                    else if (c.r === "undefined" || c.g === "undefined" || c.b === "undefined" || c.a === "undefined") {
                         console.warn("JQ-CLING WARNING: Color for one of the properties is missing some attribute. Defaults will apply!");
                     }
 
